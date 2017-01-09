@@ -1,0 +1,353 @@
+.row {
+  display: inline-block;
+  width: 100%; }
+
+[class^="col"] {
+  float: left; }
+
+.col_1 {
+  width: 8.333333333333333%; }
+
+.col_2 {
+  width: 16.66667%; }
+
+.col_3 {
+  width: 25%; }
+
+.col_4 {
+  width: 33.33333%; }
+
+.col_5 {
+  width: 41.66667%; }
+
+.col_6 {
+  width: 50%; }
+
+.col_7 {
+  width: 58.33333%; }
+
+.col_8 {
+  width: 66.66667%; }
+
+.col_9 {
+  width: 75%; }
+
+.col_10 {
+  width: 83.33333%; }
+
+.col_11 {
+  width: 91.66667%; }
+
+.col_12 {
+  width: 100%; }
+
+.offset_3 {
+  margin-left: 33.333333%; }
+
+.offset_25 {
+  margin-left: 25%; }
+
+/*begin Flex*/
+/*Flex end*/
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-arrow-next {
+  background-image: url(img/sprite.png);
+  background-position: 0px -62px;
+  width: 61px;
+  height: 108px; }
+
+.icon-arrow-to-top {
+  background-image: url(img/sprite.png);
+  background-position: -61px -128px;
+  width: 73px;
+  height: 38px; }
+
+.icon-arrow-undergallery {
+  background-image: url(img/sprite.png);
+  background-position: -127px -62px;
+  width: 23px;
+  height: 40px; }
+
+.icon-duble {
+  background-image: url(img/sprite.png);
+  background-position: -158px 0px;
+  width: 43px;
+  height: 40px; }
+
+.icon-email {
+  background-image: url(img/sprite.png);
+  background-position: -134px -128px;
+  width: 24px;
+  height: 18px; }
+
+.icon_facebook {
+  background-image: url(img/sprite.png);
+  background-position: -158px -75px;
+  width: 31px;
+  height: 31px; }
+
+.icon-info {
+  background-image: url(img/sprite.png);
+  background-position: -61px -62px;
+  width: 66px;
+  height: 66px; }
+
+.icon_instagram {
+  background-image: url(img/sprite.png);
+  background-position: -158px -137px;
+  width: 30px;
+  height: 30px; }
+
+.icon-pagination-active {
+  background-image: url(img/sprite.png);
+  background-position: 0px -170px;
+  width: 26px;
+  height: 29px; }
+
+.icon-pagination {
+  background-image: url(img/sprite.png);
+  background-position: -127px -102px;
+  width: 26px;
+  height: 26px; }
+
+.icon-phone-icon {
+  background-image: url(img/sprite.png);
+  background-position: -201px -80px;
+  width: 22px;
+  height: 21px; }
+
+.icon_play {
+  background-image: url(img/sprite.png);
+  background-position: -158px -106px;
+  width: 31px;
+  height: 31px; }
+
+.icon-plus {
+  background-image: url(img/sprite.png);
+  background-position: -158px -40px;
+  width: 37px;
+  height: 35px; }
+
+.icon-right-arrow {
+  background-image: url(img/sprite.png);
+  background-position: -201px -40px;
+  width: 23px;
+  height: 40px; }
+
+.icon-second-gallery-arrow {
+  background-image: url(img/sprite.png);
+  background-position: -201px 0px;
+  width: 23px;
+  height: 40px; }
+
+.icon-sprite {
+  background-image: url(img/sprite.png);
+  background-position: 0px 0px;
+  width: 158px;
+  height: 62px; }
+
+body {
+  background-color: #fff;
+  font-size: 18px;
+  color: #000; }
+
+.page_content {
+  max-width: 1600px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto; }
+
+.icon {
+  display: inline-block;
+  vertical-align: middle; }
+
+.slicknav_menu {
+  display: none; }
+
+.header {
+  min-height: 100px;
+  border-bottom: 2px solid #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%; }
+  .header:after {
+    display: table;
+    clear: both;
+    content: ''; }
+
+.logo_w {
+  width: 10%;
+  min-width: 100px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 1.5%; }
+
+.drop_btn {
+  position: relative;
+  display: inline-block;
+  will-change: transform; }
+  .drop_btn:hover .dropdown_content {
+    display: block; }
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #303e80;
+  max-width: 220px;
+  padding: 15px 0;
+  text-align: center;
+  transform: translateX(25%);
+  left: -110%; }
+
+.tringle_parent {
+  position: relative; }
+  .tringle_parent:before {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 23px 30px 23px;
+    border-color: transparent transparent #0e0c74 transparent; }
+
+.top_menu {
+  max-width: 1200px;
+  float: left; }
+
+#menu:after {
+  display: table;
+  clear: both;
+  content: ''; }
+
+.top_menu_item {
+  float: left;
+  -webkit-transition: -webkit-transform 0.6s;
+  -moz-transition: -moz-transform 0.6s;
+  transition: transform 0.6s;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+  transition: 1s; }
+
+.top_menu_link, .dropdown_link {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #fff;
+  padding: 43px 0 39px;
+  display: inline-block;
+  font: bold 18px/20px Arial;
+  color: inherit;
+  -webkit-transition: -webkit-transform 0.6s;
+  -moz-transition: -moz-transform 0.6s;
+  transition: transform 0.6s;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0; }
+  .top_menu_link:hover, .dropdown_link:hover {
+    color: #0d0c74; }
+  .top_menu_link::after, .top_menu_link::before, .dropdown_link::after, .dropdown_link::before {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s; }
+  .top_menu_link::before, .dropdown_link::before {
+    margin-right: 7px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px); }
+  .top_menu_link::after, .dropdown_link::after {
+    margin-left: 7px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  .top_menu_link:hover::before, .top_menu_link:hover::after, .top_menu_link:focus::before, .top_menu_link:focus::after, .dropdown_link:hover::before, .dropdown_link:hover::after, .dropdown_link:focus::before, .dropdown_link:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px); }
+
+.dropdown_link {
+  color: #fff;
+  font: bold 18px/20px Arial;
+  padding: 10px 20px;
+  will-change: transform; }
+  .dropdown_link:hover {
+    color: #fff; }
+
+.dropdown_link__mod:before, .dropdown_link__mod:after {
+  margin-right: 0;
+  margin-left: 0; }
+
+.social {
+  width: 6.25%;
+  float: right;
+  min-width: 106px;
+  padding-top: 38px; }
+  .social .sicial_top_item {
+    float: left; }
+  .social .sicial_top_link {
+    min-height: 30px;
+    margin: 0 2px;
+    transition-duration: .4s; }
+    .social .sicial_top_link:hover {
+      -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+      transform: scaleX(-1);
+      transition-duration: .4s; }
+
+@media screen and (max-width: 1120px) and (min-width: 320px) {
+  #menu {
+    display: none; }
+  .slicknav_menu {
+    display: block;
+    z-index: 999;
+    margin-top: -45px;
+    width: 100%;
+    position: fixed; }
+  .slicknav_btn {
+    left: 15%;
+    top: 20px;
+    position: fixed;
+    z-index: 999; }
+  .top_menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0 5px 0; }
+  .slicknav_nav .dropdown_content {
+    position: initial;
+    width: 100%;
+    transform: none;
+    max-width: 100%;
+    margin: 0; }
+  .slicknav_nav {
+    margin-top: 45px; } }
+
+@media screen and (max-width: 1600px) and (min-width: 1120px) {
+  .top_menu_link, .dropdown_link {
+    font-size: 1.125vw; } }

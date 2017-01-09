@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 1120px) and (min-width: 320px) { 
+	#menu {
+			display: none;
+		}
+	.slicknav_menu {
+		display: block;
+		z-index: 999;
+		margin-top: -45px;
+		width: 100%;
+		position: fixed;
+	}
+	.slicknav_btn {
+		left: 15%;
+		top: 20px;
+		position: fixed;
+		z-index: 999;
+	}
+	.top_menu_item {
+		width: 100%;
+		text-align: center;
+		padding: 5px 0 5px 0;
+	}
+	
+	.slicknav_nav .dropdown_content {
+		position: initial;
+		width: 100%;
+		transform: none;
+		max-width: 100%;
+		margin: 0;
+	}
+	.slicknav_nav {
+			margin-top: 45px;
+	}
+
+
+}
+@media screen and (max-width: 1600px) and (min-width: 1120px) { 
+	.top_menu_link, .dropdown_link {
+		font-size: 1.125vw;
+	}
+}

@@ -1,0 +1,27 @@
+$background-color: #fff ; 
+$theme-color1: #0d0c74;
+$theme-color2: #091872;
+$content-color: #000;
+$link-color: #d34f31;
+$white: #fff;
+
+// Fonts
+
+$base-fs: 18px;
+
+%heading1 {
+	font: 36px/38px Impact 'sans-serif';
+	text-transform: uppercase;
+}
+%heading2 {
+	font: 48px/50px Impact 'sans-serif';
+
+}
+%heading3 {
+	font: 27px/29px 'Kaushan-scriptregular', 'cursive';
+
+}
+%heading4 {
+	font: 21px/23px Impact 'sans-serif';
+	
+}

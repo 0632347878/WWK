@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WKK</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="libs/jquery-3.1.1.min.js"></script>
+    <script src="libs/swiper.jquery.js"></script>
+    <script src="libs/jquery.slicknav.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section class="section header_w">
+      <header class="header row">
+        <div class="logo_w"><a href="#" class="logo"><img src="img/logo.png" alt=""></a></div> 
+        <nav class="col_9 top_menu">
+          <ul id="menu">
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Strona główna</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Aktualności</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Dołącz do nas </a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Treningi</a></li>
+            <li class="drop_btn top_menu_item">
+              <a class="top_menu_link" href="#">Poznaj nas</a>
+              <ul class="dropdown_content">
+                <li class="dropdown_item tringle_parent"><a class="dropdown_link" href="#">Osiągnięcia</a></li>
+                <li class="dropdown_item"><a class="dropdown_link" href="#">Historia</a></li>
+                <li class="dropdown_item"><a class="dropdown_link" href="#">Statut</a></li>
+                <li class="dropdown_item"><a class="dropdown_link" href="#">Wspieraj nas</a></li>
+                <li class="dropdown_item"><a class="dropdown_link" href="#">Przekaż 1%</a></li>
+                <li class="dropdown_item"><a class="dropdown_link dropdown_link__mod" href="#">Nasi medaliści 
+                Mistrzostw Polski </a></li>
+                <li class="dropdown_item"><a class="dropdown_link dropdown_link__mod" href="#">BikePark Powstania 
+                Warszawskiego</a></li>
+              </ul>
+            </li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Zespół</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Zdjęcia</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Filmy</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Partnerzy</a></li>
+            <li class="top_menu_item"><a class="top_menu_link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="social">
+          <li class="sicial_top_item"><a class="sicial_top_link icon icon_facebook" href="#"></a></li>
+          <li class="sicial_top_item"><a class="sicial_top_link icon icon_play" href="#"></a></li>
+          <li class="sicial_top_item"><a class="sicial_top_link icon icon_instagram" href="#"></a></li>
+        </div>
+      </header>
+    </section>
+    <script>
+      $(function(){
+        $('#menu').slicknav();
+      });
+    </script>
+  </body>
+</html>
