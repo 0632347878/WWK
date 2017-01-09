@@ -3,18 +3,24 @@
 	#menu {
 			display: none;
 		}
+		// #menu_holder, .top_menu {
+		// 	width: 100%;
+		// }
 	.slicknav_menu {
 		display: block;
 		z-index: 999;
-		margin-top: -45px;
+		margin-top: -40px;
 		width: 100%;
 		position: fixed;
 	}
 	.slicknav_btn {
-		left: 15%;
-		top: 20px;
+		left: 125px;
+		top: 28px;
 		position: fixed;
 		z-index: 999;
+	}
+	.top_menu {
+		float: none;
 	}
 	.top_menu_item {
 		width: 100%;
@@ -32,7 +38,9 @@
 	.slicknav_nav {
 			margin-top: 45px;
 	}
-
+	.social {
+		padding-top: 30px;
+	}
 
 }
 @media screen and (max-width: 1600px) and (min-width: 1120px) { 

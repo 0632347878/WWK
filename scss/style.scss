@@ -23,8 +23,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding-left: 1%;
-	padding-right: 1%;
+	// padding-left: 1%;
+	// padding-right: 1%;
 	@include clearfix;
 }
 .logo_w {
@@ -33,6 +33,7 @@ body {
 	float: left;
 	margin-top: 20px;
 	margin-right: 1.5%;
+	margin-left: 1%;
 }
 .drop_btn {
 	position: relative;
@@ -72,8 +73,11 @@ body {
 	max-width: 1200px;
 	float: left;
 }
-#menu {
+#menu{
 	@include clearfix;
+	&:hover .top_menu_item {
+		will-change: transform;
+	}
 }
 .top_menu_item {
 	float: left;
@@ -150,10 +154,13 @@ body {
 .social {
 	width: 6.25%;
 	float: right;
+	margin-right: 1%;
 	min-width: 106px;
 	padding-top: 38px;
+	@include clearfix;
 	.sicial_top_item {
 		float: left;
+		@include clearfix;
 	}
 	.sicial_top_link {
 		min-height: 30px;
@@ -166,6 +173,9 @@ body {
 	    transition-duration: .4s;
 		}
 	}
+}
+.slicknav_menu .slicknav_icon {
+	margin: 0;
 }
 
 @import '_media';
