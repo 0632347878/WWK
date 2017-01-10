@@ -5,14 +5,15 @@ $content-color: #000;
 $link-color: #d34f31;
 $action-link-color: #0d0c74;
 $white: #fff;
+$buttons-color: #001473;
 
 // Fonts
 
 $base-fs: 18px;
-
+$Impact: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+$Kozuka: 'Kozuka Gothic Pr6n';
 %heading1 {
 	font: 36px/38px Impact 'sans-serif';
-	text-transform: uppercase;
 }
 %heading2 {
 	font: 48px/50px Impact 'sans-serif';

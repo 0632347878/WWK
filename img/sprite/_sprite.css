@@ -34,7 +34,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 23px;
   height: 40px;
 }
-.icon-duble {
+.icon_duble {
   background-image: url(img/sprite.png);
   background-position: -158px 0px;
   width: 43px;
@@ -52,7 +52,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 31px;
   height: 31px;
 }
-.icon-info {
+.icon_info {
   background-image: url(img/sprite.png);
   background-position: -61px -62px;
   width: 66px;
