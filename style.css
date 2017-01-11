@@ -194,10 +194,10 @@ body {
   position: relative;
   display: inline-block;
   will-change: transform; }
-  .drop_btn:hover .dropdown_content {
+  .drop_btn:hover .sub-menu {
     display: block; }
 
-.dropdown_content {
+.sub-menu {
   display: none;
   position: absolute;
   background-color: #303e80;

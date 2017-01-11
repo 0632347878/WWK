@@ -40,11 +40,11 @@ body {
 	position: relative;
   display: inline-block;
   will-change: transform;
-  &:hover .dropdown_content {
+  &:hover .sub-menu {
 		display: block;
   }
 }
-.dropdown_content {
+.sub-menu {
 	display: none;
   position: absolute;
   background-color: #303e80;
